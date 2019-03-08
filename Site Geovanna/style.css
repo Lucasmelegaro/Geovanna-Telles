@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    margin: auto;
+}
+
+.Topo {
+    background-color: #000;
+    height: 70px;
+    color: #fff;
+}
+
+.Topo_Conteudo {
+    background: #ceb5ed ;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+#btn_menu {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu a {
+    padding: 0.9em 3em;
+    color: #6d429f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#menu_principal{
+    display: block;
+    align-items: center;
+    font-size: 1.5em;
+
+}
+
+.menu a:hover {
+    background-color: rgb(24, 22, 22);
+
+}
+
+.conteudo_topo h1 {
+    background-color: #6d429f;
+    padding: 0.8em 1em;
+    margin-top: 2em;
+    margin-left: 2em;
+    box-shadow: 1px 1px 3px #000, -1px -1px 5px #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.banner h2 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 3em 3em;
+    text-align: center;
+}
+
+.fundo_cor{
+    background-color: #ceb5ed;
+    height: 619px;
+    display: flex;
+}
+
+.fundo_cor img{
+    width: 51% ;
+}
+
+.fundo_cor h2{
+    position: relative;
+    background-color: #fff;
+    color: #6d429f;
+    display: flex;
+    width: 700px;
+    height: 40px;
+    border: solid;
+}
+
+.texto_dados{
+    width: 40%;
+}
+
+.cor_fundo{
+    background-color: #6d429f;
+    height: 1600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.cor_fundo img{
+    width: 367px;
+    margin: 126px;
+}
+
+.cor_fundo h2{
+    position: relative;
+    background-color: #fff;
+    color: #6d429f;
+    display: flex;
+    width: 700px;
+    height: 40px;
+    border: solid;
+}
+
+
+
+
